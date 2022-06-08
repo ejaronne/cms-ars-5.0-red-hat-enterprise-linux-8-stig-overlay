@@ -12,6 +12,7 @@ inspec_version: ">= 4.0"
 <% if ENV['BASELINE'] == 'Low' %>
 depends:
 - name: cms-ars-5.0-low-red-hat-enterprise-linux-8-stig-overlay
+  url: https://github.com/ejaronne/cms-ars-5.0-red-hat-enterprise-linux-8-stig-overlay/archive/master.tar.gz
   relative_path: cms-ars-5.0-low-red-hat-enterprise-linux-8-stig-overlay
 <% end %>
 
