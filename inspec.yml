@@ -12,36 +12,41 @@ inspec_version: ">= 4.0"
 <% if ENV['BASELINE'] == 'Low' %>
 depends:
 - name: cms-ars-5.0-low-red-hat-enterprise-linux-8-stig-overlay
-  path: cms-ars-5.0-low-red-hat-enterprise-linux-8-stig-overlay
+  relative_path: cms-ars-5.0-low-red-hat-enterprise-linux-8-stig-overlay
 <% end %>
 
 <% if ENV['BASELINE'] == 'LowHVA' %>
 depends:
 - name: cms-ars-5.0-low-HVA-red-hat-enterprise-linux-8-stig-overlay
-  path: cms-ars-5.0-low-HVA-red-hat-enterprise-linux-8-stig-overlay
+  url: https://github.com/ejaronne/cms-ars-5.0-red-hat-enterprise-linux-8-stig-overlay/archive/master.tar.gz
+  relative_path: cms-ars-5.0-low-HVA-red-hat-enterprise-linux-8-stig-overlay
 <% end %>
 
 <% if ENV['BASELINE'] == 'Moderate' %>
 depends:
 - name: cms-ars-5.0-moderate-red-hat-enterprise-linux-8-stig-overlay
-  path: cms-ars-5.0-moderate-red-hat-enterprise-linux-8-stig-overlay
+  url: https://github.com/ejaronne/cms-ars-5.0-red-hat-enterprise-linux-8-stig-overlay/archive/master.tar.gz
+  relative_path: cms-ars-5.0-moderate-red-hat-enterprise-linux-8-stig-overlayay
 <% end %>
 
 <% if ENV['BASELINE'] == 'ModerateHVA' %>
 depends:
 - name: cms-ars-5.0-moderate-HVA-red-hat-enterprise-linux-8-stig-overlay
-  path: cms-ars-5.0-moderate-HVA-red-hat-enterprise-linux-8-stig-overlay
+  url: https://github.com/ejaronne/cms-ars-5.0-red-hat-enterprise-linux-8-stig-overlay/archive/master.tar.gz
+  relative_path: cms-ars-5.0-moderate-HVA-red-hat-enterprise-linux-8-stig-overlay
 <% end %>
 
 <% if ENV['BASELINE'] == 'High' %>
 depends:
 - name: cms-ars-5.0-high-red-hat-enterprise-linux-8-stig-overlay
-  path: cms-ars-5.0-high-red-hat-enterprise-linux-8-stig-overlay
+  url: https://github.com/ejaronne/cms-ars-5.0-red-hat-enterprise-linux-8-stig-overlay/archive/master.tar.gz
+  relative_path: cms-ars-5.0-high-red-hat-enterprise-linux-8-stig-overlay
 <% end %>
 
 <% if ENV['BASELINE'] == 'HighHVA' %>
 depends:
 - name: cms-ars-5.0-high-HVA-red-hat-enterprise-linux-8-stig-overlay
-  path: cms-ars-5.0-high-HVA-red-hat-enterprise-linux-8-stig-overlay
+  url: https://github.com/ejaronne/cms-ars-5.0-red-hat-enterprise-linux-8-stig-overlay/archive/master.tar.gz
+  relative_path: cms-ars-5.0-high-HVA-red-hat-enterprise-linux-8-stig-overlay
 <% end %>
 
