@@ -12,19 +12,20 @@ inspec_version: ">= 4.0"
 <% if ENV['BASELINE'] == 'Low' %>
 depends:
 - name: cms-ars-5.0-low-red-hat-enterprise-linux-8-stig-overlay
-  path: cms-ars-5.0-low-red-hat-enterprise-linux-8-stig-overlay
+  url: https://github.com/ejaronne/cms-ars-5.0-red-hat-enterprise-linux-8-stig-overlay/cms-ars-5.0-low-red-hat-enterprise-linux-8-stig-overlay
 <% end %>
 
 <% if ENV['BASELINE'] == 'LowHVA' %>
 depends:
 - name: cms-ars-5.0-low-HVA-red-hat-enterprise-linux-8-stig-overlay
-  path: cms-ars-5.0-low-HVA-red-hat-enterprise-linux-8-stig-overlay
+  git: cms-ars-5.0-low-HVA-red-hat-enterprise-linux-8-stig-overlay
 <% end %>
 
 <% if ENV['BASELINE'] == 'Moderate' %>
 depends:
 - name: cms-ars-5.0-moderate-red-hat-enterprise-linux-8-stig-overlay
-  path: cms-ars-5.0-moderate-red-hat-enterprise-linux-8-stig-overlay
+  url: https://github.com/ejaronne/cms-ars-5.0-red-hat-enterprise-linux-8-stig-overlay.git
+  relative_path: cms-ars-5.0-moderate-red-hat-enterprise-linux-8-stig-overlay
 <% end %>
 
 <% if ENV['BASELINE'] == 'ModerateHVA' %>
