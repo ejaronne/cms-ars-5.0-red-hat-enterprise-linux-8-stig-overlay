@@ -1,0 +1,8 @@
+---
+lockfile_version: 1
+depends:
+- name: redhat-enterprise-linux-8-stig-baseline
+  resolved_source:
+    url: https://github.com/CMSgov/redhat-enterprise-linux-8-stig-baseline/archive/v2.1.0.tar.gz
+    sha256: 7e89cb69f25966eae04f2f14e994efd32b3e4f5ff5e3c35ef0494e76bf64f81a
+  version_constraints: []
