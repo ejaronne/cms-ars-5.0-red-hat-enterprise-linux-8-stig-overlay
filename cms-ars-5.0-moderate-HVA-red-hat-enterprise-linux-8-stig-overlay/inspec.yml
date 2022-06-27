@@ -13,3 +13,7 @@ supports:
 depends:
 - name: cms-ars-5.0-high-HVA-red-hat-enterprise-linux-8-stig-overlay
   path: ../cms-ars-5.0-high-HVA-red-hat-enterprise-linux-8-stig-overlay
+
+- name: redhat-enterprise-linux-8-stig-baseline
+  url: https://github.com/CMSgov/redhat-enterprise-linux-8-stig-baseline/archive/v2.1.0.tar.gz
+

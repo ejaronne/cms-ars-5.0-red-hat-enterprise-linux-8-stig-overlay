@@ -1,0 +1,18 @@
+---
+lockfile_version: 1
+depends:
+- name: cms-ars-5.0-moderate-HVA-red-hat-enterprise-linux-8-stig-overlay
+  resolved_source:
+    path: "/Users/wdower/work/cms-ars-5.0-red-hat-enterprise-linux-8-stig-overlay/cms-ars-5.0-moderate-HVA-red-hat-enterprise-linux-8-stig-overlay"
+  version_constraints: []
+  dependencies:
+  - name: cms-ars-5.0-high-HVA-red-hat-enterprise-linux-8-stig-overlay
+    resolved_source:
+      path: "/Users/wdower/work/cms-ars-5.0-red-hat-enterprise-linux-8-stig-overlay/cms-ars-5.0-high-HVA-red-hat-enterprise-linux-8-stig-overlay"
+    version_constraints: []
+    dependencies:
+    - name: redhat-enterprise-linux-8-stig-baseline
+      resolved_source:
+        url: https://github.com/CMSgov/redhat-enterprise-linux-8-stig-baseline/archive/v2.1.0.tar.gz
+        sha256: 7e89cb69f25966eae04f2f14e994efd32b3e4f5ff5e3c35ef0494e76bf64f81a
+      version_constraints: []
