@@ -23,10 +23,21 @@ include_controls 'redhat-enterprise-linux-8-stig-baseline' do
         /etc/sssd/pki/sssd_auth_ca_db.pem"
   end
 
+  control 'SV-230362' do
+    impact 0.0
+    desc "caveat", "Not applicable for this CMS ARS 5.0 overlay, since this requirement is not included in CMS ARS 5.0."
+  end
+
   control 'SV-230373' do
     impact 0.0
     desc "caveat", "Not applicable for this CMS ARS 5.0 overlay, since this requirement is not included in CMS ARS 5.0."
   end
+
+  control 'SV-230375' do
+    impact 0.0
+    desc "caveat", "Not applicable for this CMS ARS 5.0 overlay, since this requirement is not included in CMS ARS 5.0."
+  end
+
 
   control 'SV-230484' do
     title "RHEL 8 must securely compare internal information system clocks at
